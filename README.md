@@ -9,7 +9,7 @@ and can be run in DosBox nowadays. It is a 16bit retro game and should run on
 anything newer than ancient Intel 80186 processor.
 Graphics is displayed using a very old 13H mode with 320x200 pixel with a custom
 colour palette and screen buffering. Fonts are displayed using the BIOS builtin
-fonts available in memory. Sprites and pictures were created with another custom
+glyphs available in system memory. Sprites and pictures were created with another custom
 program that converted them to a byte array representation.
 
 ## How to compile it?
@@ -27,7 +27,10 @@ nasm -o snake.com -fbin snake.asm
 ~~~
 
 ## How to run it?
-* First you need to install [DosBox](https://www.dosbox.com/).
+* First you need to install [DosBox](https://www.dosbox.com/), on Ubuntu just run:
+~~~
+apt-get install dosbox
+~~~
 * Next run DosBox and mount directory where _snake.com_ is located
 ~~~
 mount c path/to/snake/folder
@@ -41,4 +44,4 @@ snake.com
 * _A_ print about
 * _P_ pause the game
 
-This code is protected by the Whiskyware license :P
+This code is protected by the [Beerware](https://en.wikipedia.org/wiki/Beerware) license :P
