@@ -1208,7 +1208,7 @@ text_about3
 DB 'By CEPA 2004',0
 
 text_about4
-DB 'www.cepa.end.pl',0
+DB ' Visit cepa.io',0
 
 text_pause
 DB 'PAUSE',0
@@ -1226,7 +1226,7 @@ text_end
 DB 'SNAKE Clone v1.0',10,13
 DB 'Copyright (C) By Lukasz (Cepa) Cepowski 2004',10,13,10,13
 DB 'This game is freeware with full NASM source code !',10,13
-DB 'Visit http://cepa.io',10,13,10,13,'OldSchool RULEZ :)','$'
+DB 'Visit https://cepa.io',10,13,10,13,'OldSchool RULEZ :)','$'
 
 
 sprite_logo                                          ; 54x11 - main logo
