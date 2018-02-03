@@ -27,7 +27,8 @@ nasm -o snake.com -fbin snake.asm
 ~~~
 
 ## How to run it?
-* First you need to install [DosBox](https://www.dosbox.com/), on Ubuntu just run:
+* First you need to clone this repo or download _snake.com_ to a folder.
+* Next you need to install [DosBox](https://www.dosbox.com/), on Ubuntu just run:
 ~~~
 apt-get install dosbox
 ~~~
