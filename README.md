@@ -45,4 +45,7 @@ snake.com
 * _A_ print about
 * _P_ pause the game
 
+## Questions?
+Visit http://cepa.io
+
 This code is protected by the [Beerware](https://en.wikipedia.org/wiki/Beerware) license :P
